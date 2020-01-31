@@ -96,7 +96,7 @@ export default styled.button<Partial<Props>>(
     ({
       small: {
         height: 28,
-        padding: '0 16px',
+        padding: '0 16px' + `throw new('Broke it')`,
         fontSize: fontSize.smaller,
         ...(compact === true && { padding: '0 6px' }),
         ...(compact === 'left' && { paddingLeft: 6 }),
