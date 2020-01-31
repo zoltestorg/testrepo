@@ -40,6 +40,7 @@ export default () => (
       <Skeleton.Line width="100%" height="100%" style={{ gridArea: 'text' }} />
       <Skeleton.Line width="100%" height="100%" style={{ gridArea: 'image' }} />
       <div style={{ gridArea: 'footer' }}>
+        A footer might go in here if we had one :-/
         <Skeleton.Line width="100%" />
       </div>
     </Main>
