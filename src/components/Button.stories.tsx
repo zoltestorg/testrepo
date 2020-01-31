@@ -6,38 +6,33 @@ export default {
   title: 'components|Button',
 };
 
-// export const Appearances = () => (
-//   <Grid cols={3}>
-//     <Button appearance="primary">Primary</Button>
-//     <Button appearance="primary" outline>
-//       Primary outline
-//     </Button>
-//     <Button appearance="primary" disabled>
-//       Primary disabled
-//     </Button>
+export const Appearances = () => (
+  <Grid cols={3}>
+    <Button appearance="primary">Primary</Button>
+    <Button appearance="primary" outline>
+      Primary outline
+    </Button>
+    <Button appearance="primary" disabled>
+      Primary disabled
+    </Button>
 
-//     <Button appearance="secondary">Secondary</Button>
-//     <Button appearance="secondary" outline>
-//       Secondary outline
-//     </Button>
-//     <Button appearance="secondary" disabled>
-//       Secondary disabled
-//     </Button>
+    <Button appearance="secondary">Secondary</Button>
+    <Button appearance="secondary" outline>
+      Secondary outline
+    </Button>
+    <Button appearance="secondary" disabled>
+      Secondary disabled
+    </Button>
 
-//     <Button appearance="tertiary">Tertiary</Button>
-//     <Button appearance="tertiary" outline>
-//       Tertiary outline
-//     </Button>
-//     <Button appearance="tertiary" disabled>
-//       Tertiary disabled
-//     </Button>
-//   </Grid>
-// );
-
-export const Appearances = () => {
-  throw 'Foo';
-  return 'foo';
-};
+    <Button appearance="tertiary">Tertiary</Button>
+    <Button appearance="tertiary" outline>
+      Tertiary outline
+    </Button>
+    <Button appearance="tertiary" disabled>
+      Tertiary disabled
+    </Button>
+  </Grid>
+);
 
 export const Sizes = () => (
   <Grid cols={2}>
