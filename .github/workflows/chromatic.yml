@@ -2,9 +2,11 @@ name: "Chromatic"
 on: push
 
 jobs:
-  test:
+  publish:
     runs-on: ubuntu-latest
     steps:
+      - env:
+          CHROMATIC_INDEX_URL: https://staging-www.chromaticqa.com
       - uses: actions/checkout@v1
       - run: |
           yarn
